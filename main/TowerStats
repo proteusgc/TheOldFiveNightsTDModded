@@ -1,1 +1,37 @@
-
+"Jerry": {
+    "Type": "AOE",
+    "Image": "rbxassetid://103692691283226",
+    "Rarity": "OP",
+    "PlacePrice": 22451,
+    "Max": 2,
+    "Offset": 0,
+    "Passive": {"Name": "JERRIFY", "Description": "Deals +100% damage to stunned enemies"},
+    "hitboxOffset": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+    },
+      "Upgrades": [
+    {
+        "Price": 0,
+        "Range": 20,
+        "Damage": 10,
+        "StunDamage": 2,
+        "Cooldown": 0.001,
+    },
+    {
+        "Price": 33333,
+        "Range": 100,
+        "Damage": 1000,
+        "StunDamage": 2,
+        "Cooldown": 0.001,
+    },
+    {
+        "Price": 44444,
+        "Range": 200,
+        "Damage": 1000000,
+        "StunDamage": 2,
+        "Cooldown": 0.001,
+    }
+]
+}
