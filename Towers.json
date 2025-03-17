@@ -11027,8 +11027,7 @@
                 "SlowTime": 0.5
             }
         ]
-    }
-}
+    },
     "M.X.E.S.": {
         "Type": "AOE",
         "Image": "rbxassetid://99807714990509",
@@ -11067,8 +11066,7 @@
                 "Cooldown": 0.5,
             }
         ]
-    }
-}
+    },
     "Shadow Dreadbear": {
         "Type": "AOE",
         "Image": "rbxassetid://97745995518526",
@@ -11113,8 +11111,7 @@
                 "Cooldown": 2,
             }
         ]
-    }
-}
+    },
     "Christmas Spirit Bonnie": {
         "Type": "Nuke + Summoner",
         "Image": "rbxassetid://75841694564607",
@@ -11166,8 +11163,7 @@
                 "WalkSpeed": 15,
             }
         ]
-    }
-}
+    },
     "Glitchtrap": {
         "Type": "Pierce Spread Slow + Passive",
         "Image": "rbxassetid://138836767274217",
