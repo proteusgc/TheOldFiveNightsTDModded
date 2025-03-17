@@ -11032,7 +11032,7 @@
         "Type": "AOE",
         "Image": "rbxassetid://99807714990509",
         "Rarity": "Apex",
-        "PlacePrice": 25000
+        "PlacePrice": 25000,
         "Offset": 0,
         "Max": 2,
         "hitboxOffset": {
@@ -11071,7 +11071,7 @@
         "Type": "AOE",
         "Image": "rbxassetid://97745995518526",
         "Rarity": "Nightmare",
-        "PlacePrice": 15000
+        "PlacePrice": 15000,
         "Offset": 0,
         "Max": 3,
         "hitboxOffset": {
@@ -11116,7 +11116,7 @@
         "Type": "Nuke + Summoner",
         "Image": "rbxassetid://75841694564607",
         "Rarity": "Nightmare",
-        "PlacePrice": 20000
+        "PlacePrice": 20000,
         "Offset": 0,
         "Max": 2,
         "Passive": {"Name": "Joy", "Description": "Summons Souls to spread their Christmas Spirit!"},
@@ -11168,7 +11168,7 @@
         "Type": "Pierce Spread Slow + Passive",
         "Image": "rbxassetid://138836767274217",
         "Rarity": "Nightmare",
-        "PlacePrice": 7500
+        "PlacePrice": 7500,
         "Offset": 0,
         "Max": 2,
         "Passive": {"Name": "Afton's Agony", "Description": "Enemies hit are slowed by 65%, deals +75% Damage if on the same team an Afton unit."},
