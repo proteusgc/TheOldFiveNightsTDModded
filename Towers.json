@@ -11216,6 +11216,54 @@
                 "SlowTime": 1
             }
         ]
-    }
+    },
+        "Trademark Chica": {
+        "Type": "Explosion Slow",
+        "Image": "rbxassetid://110077652568914",
+        "Rarity": "Nightmare",
+        "PlacePrice": 12500,
+        "Offset": 0,
+        "Max": 4,
+        "Passive": {"Name": "Bargain", "Description": "Negotiates with enemies to go slower by 65%"},
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 20,
+                "Damage": 13500,
+                "Cooldown": 1,
+                "Slow": 0.35,
+                "SlowTime": 1.5
+            },
+            {
+                "Price": 12500,
+                "Range": 25,
+                "Damage": 16000,
+                "Cooldown": 1,
+                "Slow": 0.35,
+                "SlowTime": 1.5
+            },
+            {
+                "Price": 16000,
+                "Range": 30,
+                "Damage": 18000,
+                "Cooldown": 0.9,
+                "Slow": 0.35,
+                "SlowTime": 1
+            },
+            {
+                "Price": 18000,
+                "Range": 35,
+                "Damage": 21000,
+                "Cooldown": 0.8,
+                "Slow": 0.35,
+                "SlowTime": 0.75
+            }
+        ]
+    },
 }
 
