@@ -11264,6 +11264,78 @@
                 "SlowTime": 0.75
             }
         ]
+    },
+     "Jerry": {
+        "Type": "AOE Slow + Anti Regen",
+        "Image": "rbxassetid://110077652568914",
+        "Rarity": "Nightmare",
+        "PlacePrice": 1000000,
+        "Offset": 0,
+        "Max": 1,
+        "Passive": {"Name": "JERRIFY", "Description": "Completely halts Regeneration + Slows enemies by 65%"},
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 50,
+                "Damage": 10169,
+                "Cooldown": 1,
+                "Slow": 0.35,
+                "SlowTime": 1.5
+            },
+            {
+                "Price": 5000000,
+                "Range": 55,
+                "Damage": 100000,
+                "Cooldown": 0.5,
+                "Slow": 0.35,
+                "SlowTime": 1.5
+            },
+            {
+                "Price": 5000000,
+                "Range": 60,
+                "Damage": 500000,
+                "Cooldown": 0.25,
+                "Slow": 0.35,
+                "SlowTime": 1.5
+            },
+            {
+                "Price": 10000000,
+                "Range": 65,
+                "Damage": 1000000,
+                "Cooldown": 0.1,
+                "Slow": 0.35,
+                "SlowTime": 1.5
+            },
+             {
+                "Price": 50000000,
+                "Range": 70,
+                "Damage": 50000000,
+                "Cooldown": 0.05,
+                "Slow": 0.35,
+                "SlowTime": 1.5
+            },
+             {
+                "Price": 75000000,
+                "Range": 75,
+                "Damage": 100000000,
+                "Cooldown": 0.025,
+                "Slow": 0.35,
+                "SlowTime": 1.5
+            },
+            {
+                "Price": 100000000,
+                "Range": 80,
+                "Damage": 690000000,
+                "Cooldown": 0.01,
+                "Slow": 0.35,
+                "SlowTime": 1.5
+            }
+        ]
     }
 }
 
