@@ -11159,5 +11159,64 @@
                 "SlowTime": 1.5
             }
         ]
+    },
+    "Fractured Foxy": {
+        "Type": "Nuke Stun",
+        "Image": "rbxassetid://96265074187848",
+        "Rarity": "Forgotten",
+        "PlacePrice": 29000,
+        "Offset": 0.75,
+        "Max": 1,
+        "MaxChain": 10,
+        "Passive": {"Name": "Fractured Parts", "Description": "Malfunctions and sends out a shock that bounces between up to 10 nearby units dealing damage and stunning them"},
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 27,
+                "Damage": 40000,
+                "Cooldown": 1.8,
+                "Slow": 0,
+                "SlowTime": 0.5
+            },
+            {
+                "Price": 22000,
+                "Range": 30,
+                "Damage": 50000,
+                "Cooldown": 1.7,
+                "Slow": 0,
+                "SlowTime": 0.5
+            },
+            {
+                "Price": 30000,
+                "Range": 35,
+                "Damage": 60000,
+                "Cooldown": 1.6,
+                "Slow": 0,
+                "SlowTime": 0.5
+            },
+            {
+                "Price": 40000,
+                "Range": 40,
+                "Damage": 80000,
+                "Cooldown": 1.5,
+                "Slow": 0,
+                "SlowTime": 0.5
+            },
+             },
+            {
+                "Price": 250000,
+                "Range": 50,
+                "Damage": 100000,
+                "Cooldown": 1.4,
+                "Slow": 0,
+                "SlowTime": 0.5
+            }
+        ]
     }
 }
+
