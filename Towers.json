@@ -11164,7 +11164,7 @@
         "Type": "Nuke Stun",
         "Image": "rbxassetid://95179718053439",
         "Rarity": "Forgotten",
-        "PlacePrice": 29000,
+        "PlacePrice": 50000,
         "Offset": 0.3,
         "Max": 1,
         "MaxChain": 10,
@@ -11178,21 +11178,21 @@
             {
                 "Price": 0,
                 "Range": 27,
-                "Damage": 40000,
+                "Damage": 75000,
                 "Cooldown": 1.8,
                 "Slow": 0,
                 "SlowTime": 0.5
             },
             {
-                "Price": 50000,
+                "Price": 100000,
                 "Range": 30,
-                "Damage": 50000,
+                "Damage": 90,
                 "Cooldown": 1.7,
                 "Slow": 0,
                 "SlowTime": 0.75
             },
             {
-                "Price": 100000,
+                "Price": 150000,
                 "Range": 35,
                 "Damage": 60000,
                 "Cooldown": 1.6,
