@@ -11314,7 +11314,7 @@
              {
                 "Price": 50000000,
                 "Range": 70,
-                "Damage": 50000000,
+                "Damage": 50000,
                 "Cooldown": 0.05,
                 "Slow": 0.35,
                 "SlowTime": 1.5
@@ -11322,7 +11322,7 @@
              {
                 "Price": 75000000,
                 "Range": 75,
-                "Damage": 100000000,
+                "Damage": 100000,
                 "Cooldown": 0.025,
                 "Slow": 0.35,
                 "SlowTime": 1.5
@@ -11330,7 +11330,7 @@
             {
                 "Price": 100000000,
                 "Range": 80,
-                "Damage": 690000000,
+                "Damage": 690000,
                 "Cooldown": 0.01,
                 "Slow": 0.35,
                 "SlowTime": 1.5
