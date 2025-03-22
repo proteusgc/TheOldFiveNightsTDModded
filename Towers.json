@@ -11384,7 +11384,7 @@
         "Offset": 0.3,
         "Max": 7,
         "MaxChain": 10,
-        "Passive": {"Name": "Fractured Parts", "Description": "Malfunctions and sends out a shock that stuns all enemies in range for 1 second"},
+        "Passive": {"Name": "Energy Sword", "Description": "Sends out a shock of energy from his sword and stuns everyone in his range"},
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
