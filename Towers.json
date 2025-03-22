@@ -11340,7 +11340,7 @@
      "CXASFSFQWR": {
         "Type": "Single",
         "Image": "rbxassetid://107190020086002",
-        "Rarity": "Nightmare",
+        "Rarity": "Secret",
         "PlacePrice": 30000,
         "Offset": 0,
         "Max": 3,
@@ -11352,27 +11352,76 @@
         "Upgrades": [
             {
                 "Price": 0,
-                "Range": 40,
-                "Damage": 7500,
+                "Range": 34,
+                "Damage": 7000,
                 "Cooldown": 0.05
             },
             {
                 "Price": 40000,
-                "Range": 42,
-                "Damage": 10000,
+                "Range": 36,
+                "Damage": 9000,
                 "Cooldown": 0.05
             },
             {
                 "Price": 50000,
-                "Range": 44,
-                "Damage": 12500,
+                "Range": 38,
+                "Damage": 12000,
                 "Cooldown": 0.05
             },
             {
                 "Price": 60000,
-                "Range": 45,
-                "Damage": 15000,
+                "Range": 40,
+                "Damage": 13500,
                 "Cooldown": 0.05
+            }
+        ]
+    },
+        "WSFQCXRFAS": {
+        "Type": "Explosion Stun",
+        "Image": "rbxassetid://95179718053439",
+        "Rarity": "Mythic",
+        "PlacePrice": 6000,
+        "Offset": 0.3,
+        "Max": 7,
+        "MaxChain": 10,
+        "Passive": {"Name": "Fractured Parts", "Description": "Malfunctions and sends out a shock that stuns all enemies in range for 1 second"},
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 10,
+                "Damage": 2500,
+                "Cooldown": 0.75,
+                "Slow": 0,
+                "SlowTime": 0.3
+            },
+            {
+                "Price": 100000,
+                "Range": 13,
+                "Damage": 4000,
+                "Cooldown": 0.75,
+                "Slow": 0,
+                "SlowTime": 0.4
+            },
+            {
+                "Price": 150000,
+                "Range": 15,
+                "Damage": 6000,
+                "Cooldown": 0.5,
+                "Slow": 0,
+                "SlowTime": 0.5
+            },
+            {
+                "Price": 200000,
+                "Range": 18,
+                "Damage": 7500,
+                "Cooldown": 0.5,
+                "Slow": 0,
+                "SlowTime": 0.6
             }
         ]
     }
