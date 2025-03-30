@@ -15091,5 +15091,108 @@
             }
         ]
     },
+        "Apollo's Eclipse": {
+        "Type": "Nuke Burn + Passive",
+        "Image": "rbxassetid://95098209348303",
+        "Rarity": "Forgotten",
+        "PlacePrice": 22000,
+        "Offset": 0,
+        "Max": 2,
+        "Passive": {"Name": "Lunar Eclipse", "Description": "Enemies hit by Apollo's Attacks take +10% more damage and regens less by 50% for 10 seconds. (20% shiny)"},
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 30,
+                "Damage": 134000,
+                "Cooldown": 4,
+                "Burn": 38,
+                "BurnTime": 1.2,
+                "Wither": 1.1,
+                "ShinyWither": 1.2,
+                "WitherTime": 10
+            },
+            {
+                "Price": 25000,
+                "Range": 34,
+                "Damage": 175000,
+                "Cooldown": 3.75,
+                "Burn": 38,
+                "BurnTime": 1.2,
+                "Wither": 1.1,
+                "ShinyWither": 1.2,
+                "WitherTime": 10
+            },
+            {
+                "Price": 30000,
+                "Range": 37,
+                "Damage": 210000,
+                "Cooldown": 3.5,
+                "Burn": 38,
+                "BurnTime": 1.2,
+                "Wither": 1.1,
+                "ShinyWither": 1.2,
+                "WitherTime": 10
+            },
+            {
+                "Price": 40000,
+                "Range": 40,
+                "Damage": 265000,
+                "Cooldown": 3,
+                "Burn": 38,
+                "BurnTime": 1.2,
+                "Wither": 1.1,
+                "ShinyWither": 1.2,
+                "WitherTime": 10
+            }
+        ]
+    },
+        "Chief Toy Chica": {
+        "Type": "Farm",
+        "Image": "rbxassetid://18363529003",
+        "Rarity": "Secret",
+        "PlacePrice": 1000,
+        "Max": 3,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "NoEnemyAttack": true,
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 15,
+                "Damage": 100,
+                "Cooldown": 4,
+                "Farm": 1000
+            },
+            {
+                "Price": 1500,
+                "Range": 15,
+                "Damage": 100,
+                "Cooldown": 3,
+                "Farm": 2000
+            },
+            {
+                "Price": 2000,
+                "Range": 15,
+                "Damage": 100,
+                "Cooldown": 2,
+                "Farm": 4000
+            },
+            {
+                "Price": 3000,
+                "Range": 15,
+                "Damage": 100,
+                "Cooldown": 1,
+                "Farm": 6000
+            }
+        ]
+    },
 }
 
