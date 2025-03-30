@@ -14965,33 +14965,39 @@
                 "Price": 0,
                 "Range": 27,
                 "Damage": 4000,
+                "Health": 200000,
+                "WalkSpeed": 15,
                 "Unit": "Clone Guy",
-                "Health": 500,
-                "Cooldown": 0.5
+                "Offset": -1.5
             },
             {
                 "Price": 32000,
                 "Range": 29,
                 "Damage": 5000,
+                "Health": 250000,
+                "WalkSpeed": 15,
                 "Unit": "Clone Guy",
-                "Health": 500,
-                "Cooldown": 0.5
+                "Offset": -1.5
             },
             {
                 "Price": 40000,
                 "Range": 31,
                 "Damage": 6000,
+                "SummonTime": 15,
+                "Health": 300000,
+                "WalkSpeed": 15,
                 "Unit": "Clone Guy",
-                "Health": 500,
-                "Cooldown": 0.5
+                "Offset": -1.5
             },
             {
                 "Price": 50000,
                 "Range": 33,
                 "Damage": 7500,
+                "SummonTime": 15,
+                "Health": 375000,
+                "WalkSpeed": 15,
                 "Unit": "Clone Guy",
-                "Health": 500,
-                "Cooldown": 0.5
+                "Offset": -1.5
             }
         ]
     },
