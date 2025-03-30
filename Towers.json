@@ -15042,6 +15042,54 @@
                 "SlowTime": 1
             }
         ]
-    }
+    },
+        "Phantom Crusher Mangle": {
+        "Type": "AOE Poison",
+        "Image": "rbxassetid://105841546254499",
+        "Rarity": "Nightmare",
+        "PlacePrice": 17500,
+        "Offset": -2.5,
+        "Max": 3,
+        "Passive": {"Name": "Poison", "Description": "Poisons enemies"},
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 25,
+                "Damage": 1000,
+                "Poison": 300,
+                "PoisonTime": 1,
+                "Cooldown": 0.1
+            },
+            {
+                "Price": 20000,
+                "Range": 27,
+                "Damage": 1200,
+                "Poison": 400,
+                "PoisonTime": 0.5,
+                "Cooldown": 0.08
+            },
+            {
+                "Price": 25000,
+                "Range": 38,
+                "Damage": 1400,
+                "Poison": 450,
+                "PoisonTime": 0.25,
+                "Cooldown": 0.06
+            },
+            {
+                "Price": 30000,
+                "Range": 40,
+                "Damage": 1600,
+                "Poison": 500,
+                "PoisonTime": 0.1,
+                "Cooldown": 0.05
+            }
+        ]
+    },
 }
 
