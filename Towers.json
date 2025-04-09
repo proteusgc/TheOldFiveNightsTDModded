@@ -14298,6 +14298,54 @@
                 "SlowTime": 2
             }
         ]
+    },
+          "DAVE": {
+        "Type": "DAVE",
+        "Image": "rbxassetid://70490087691266",
+        "Rarity": "Forgotten",
+        "PlacePrice": 1515,
+        "Offset": 0.25,
+        "Max": 2,
+        "Passive": {"Name": "DAVE", "Description": "Slows enemies by 50%"},
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 320,
+                "Damage": 10000,
+                "Cooldown": 0.101,
+                "Slow": 0.5,
+                "SlowTime": 2
+            },
+            {
+                "Price": 800,
+                "Range": 350,
+                "Damage": 20000,
+                "Cooldown": 0.101,
+                "Slow": 0.5,
+                "SlowTime": 2
+            },
+            {
+                "Price": 1000,
+                "Range": 380,
+                "Damage": 40000,
+                "Cooldown": 0.101,
+                "Slow": 0.5,
+                "SlowTime": 2
+            },
+            {
+                "Price": 1800,
+                "Range": 400,
+                "Damage": 69000,
+                "Cooldown": 0.101,
+                "Slow": 0.5,
+                "SlowTime": 2
+            }
+        ]
     }
 }
 
