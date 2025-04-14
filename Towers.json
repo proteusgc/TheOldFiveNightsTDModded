@@ -14476,7 +14476,7 @@
             {
                 "Price": 40000,
                 "Range": 32,
-                "Damage": 200000,
+                "Damage": 250000,
                 "Cooldown": 5,
                 "Slow": 0,
                 "SlowTime": 1.5
