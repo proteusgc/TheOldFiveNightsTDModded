@@ -14621,6 +14621,54 @@
                 "Cooldown": 0.05
             }
         ]
-    }
+    },
+        "VFG's Demise": {
+        "Type": "Nuke + Stun",
+        "Image": "rbxassetid://105601126215569",
+        "Rarity": "Forgotten",
+        "PlacePrice": 20000,
+        "Offset": 0,
+        "Max": 1,
+        "Passive": {"Name": "Ticking Time Bomb", "Description": "Explodes and does inf damage and stun to everyone every 10-6.5 seconds"},
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 25,
+                "Damage": 999999999999999999999999999999999999999999999,
+                "Cooldown": 10,
+                "Slow": 0,
+                "SlowTime": 1.5
+            },
+            {
+                "Price": 25000,
+                "Range": 30,
+                "Damage": 999999999999999999999999999999999999999999999,
+                "Cooldown": 8.5,
+                "Slow": 0,
+                "SlowTime": 1.5
+            },
+            {
+                "Price": 30000,
+                "Range": 33,
+                "Damage": 999999999999999999999999999999999999999999999,
+                "Cooldown": 7,
+                "Slow": 0,
+                "SlowTime": 1.5
+            },
+            {
+                "Price": 40000,
+                "Range": 35,
+                "Damage": 999999999999999999999999999999999999999999999,
+                "Cooldown": 6.5,
+                "Slow": 0,
+                "SlowTime": 1.5
+            }
+        ]
+    },
 }
 
