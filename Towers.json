@@ -14669,6 +14669,53 @@
                 "SlowTime": 1.5
             }
         ]
+    },
+    "Art The Clown": {
+        "Type": "Splash Stun",
+        "Image": "rbxassetid://94762576769643",
+        "Rarity": "Nightmare",
+        "PlacePrice": 17500,
+        "Offset": 0,
+        "Max": 3,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 28,
+                "Damage": 25000,
+                "Cooldown": 2,
+                "Slow": 0,
+                "SlowTime": 0.5
+            },
+            {
+                "Price": 20000,
+                "Range": 30,
+                "Damage": 30000,
+                "Cooldown": 1.6,
+                "Slow": 0,
+                "SlowTime": 0.5
+            },
+            {
+                "Price": 25000,
+                "Range": 31,
+                "Damage": 35000,
+                "Cooldown": 1.3,
+                "Slow": 0,
+                "SlowTime": 0.5
+            },
+            {
+                "Price": 30000,
+                "Range": 32,
+                "Damage": 40000,
+                "Cooldown": 1,
+                "Slow": 0,
+                "SlowTime": 0.5
+            }
+        ]
     }
 }
 
