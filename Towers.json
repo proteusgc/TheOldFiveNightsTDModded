@@ -14768,6 +14768,45 @@
                 "SlowTime": 1
             }
         ]
+    },
+        "Mr. Sigma": {
+        "Type": "Cone AOE",
+        "Image": "rbxassetid://100894119368402",
+        "Rarity": "Forgotten",
+        "PlacePrice": 50000,
+        "Offset": 0,
+        "Max": 2,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 20,
+                "Damage": 4500,
+                "Cooldown": 0.125
+            },
+            {
+                "Price": 100000,
+                "Range": 22,
+                "Damage": 9000,
+                "Cooldown": 0.075
+            },
+            {
+                "Price": 500000,
+                "Range": 24,
+                "Damage": 40000,
+                "Cooldown": 0.04
+            },
+            {
+                "Price": 1000000,
+                "Range": 25,
+                "Damage": 80000,
+                "Cooldown": 0.02
+            }
+        ]
     }
 }
 
