@@ -15085,6 +15085,128 @@
                 "Cooldown": 0.1
             }
         ]
+    },
+        "Hellish Foxy": {
+        "Type": "Explosion Burn",
+        "Image": "rbxassetid://18578478327",
+        "Rarity": "Forgotten",
+        "PlacePrice": 15000,
+        "Max": 3,
+        "Passive": {"Name": "Slow", "Description": "Slows enemies"},
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Offset": 0.1,
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 34,
+                "Damage": 580,
+                "Cooldown": 0.1,
+                "ChargeLength": 2.5,
+                "RechargeLength": 5,
+            },
+            {
+                "Price": 30000,
+                "Range": 38,
+                "Damage": 630,
+                "Cooldown": 0.07,
+                "ChargeLength": 2.5,
+                "RechargeLength": 5,
+            },
+            {
+                "Price": 40000,
+                "Range": 43,
+                "Damage": 690,
+                "Cooldown": 0.05,
+                "ChargeLength": 2.5,
+                "RechargeLength": 5,
+            },
+            {
+                "Price": 50000,
+                "Range": 87,
+                "Damage": 550,
+                "Cooldown": 0.05,
+                "ChargeLength": 2,
+                "RechargeLength": 5,
+            },
+            {
+                "Price": 75000,
+                "Range": 53,
+                "Damage": 1050,
+                "Cooldown": 0.03,
+                "ChargeLength": 2,
+                "RechargeLength": 5,
+            }
+        ]
+    },
+        "Terrestrial Foxy": {
+        "Type": "AOE Stun",
+        "Image": "rbxassetid://18578478327",
+        "Rarity": "Forgotten",
+        "PlacePrice": 15000,
+        "Max": 3,
+        "Passive": {"Name": "Slow", "Description": "Slows enemies"},
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Offset": 0.1,
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 16,
+                "Damage": 400,
+                "Cooldown": 0.1,
+                "ChargeLength": 2.5,
+                "RechargeLength": 5,
+                "Slow": 0.9,
+                "SlowTime": 1
+            },
+            {
+                "Price": 30000,
+                "Range": 20,
+                "Damage": 450,
+                "Cooldown": 0.09,
+                "ChargeLength": 2.5,
+                "RechargeLength": 5,
+                "Slow": 0.7,
+                "SlowTime": 1
+            },
+            {
+                "Price": 40000,
+                "Range": 25,
+                "Damage": 500,
+                "Cooldown": 0.07,
+                "ChargeLength": 2.5,
+                "RechargeLength": 5,
+                "Slow": 0.4,
+                "SlowTime": 1
+            },
+            {
+                "Price": 50000,
+                "Range": 30,
+                "Damage": 550,
+                "Cooldown": 0.05,
+                "ChargeLength": 2,
+                "RechargeLength": 5,
+                "Slow": 0.35,
+                "SlowTime": 1
+            },
+            {
+                "Price": 75000,
+                "Range": 35,
+                "Damage": 600,
+                "Cooldown": 0.03,
+                "ChargeLength": 2,
+                "RechargeLength": 5,
+                "Slow": 0.35,
+                "SlowTime": 1
+            }
+        ]
     }
 }
 
