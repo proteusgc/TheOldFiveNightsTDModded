@@ -14846,6 +14846,123 @@
                 "Cooldown": 0.1
             }
         ]
+    },
+      "Balloon Boy": {
+        "Type": "Explosion",
+        "Image": "rbxassetid://16781077553",
+        "Rarity": "Mythic",
+        "PlacePrice": 5000,
+        "Max": 3,
+        "AnimationOffset": -5,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 12,
+                "Damage": 400,
+                "Cooldown": 4
+            },
+            {
+                "Price": 10000,
+                "Range": 15,
+                "Damage": 500,
+                "Cooldown": 3.5
+            },
+            {
+                "Price": 15000,
+                "Range": 18,
+                "Damage": 600,
+                "Cooldown": 3
+            },
+            {
+                "Price": 25000,
+                "Range": 25,
+                "Damage": 700,
+                "Cooldown": 3
+            }
+        ]
+    },
+    "Golden Freddy": {
+        "Type": "Single",
+        "Image": "rbxassetid://17629034232",
+        "Rarity": "Mythic",
+        "PlacePrice": 4000,
+        "Max": 2,
+        "Offset": 0,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 15,
+                "Damage": 250,
+                "Cooldown": 1.5
+            },
+            {
+                "Price": 7000,
+                "Range": 18,
+                "Damage": 300,
+                "Cooldown": 1.25
+            },
+            {
+                "Price": 10000,
+                "Range": 20,
+                "Damage": 400,
+                "Cooldown": 1
+            },
+            {
+                "Price": 15000,
+                "Range": 20,
+                "Damage": 500,
+                "Cooldown": 1
+            }
+        ]
+    },
+      "JJ": {
+        "Type": "Explosion",
+        "Image": "rbxassetid://111737382883953",
+        "Rarity": "Secret",
+        "PlacePrice": 5000,
+        "Max": 3,
+        "AnimationOffset": -5,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 22,
+                "Damage": 7000,
+                "Cooldown": 3
+            },
+            {
+                "Price": 10000,
+                "Range": 25,
+                "Damage": 8000,
+                "Cooldown": 2.5
+            },
+            {
+                "Price": 15000,
+                "Range": 28,
+                "Damage": 9000,
+                "Cooldown": 2
+            },
+            {
+                "Price": 25000,
+                "Range": 35,
+                "Damage": 10000,
+                "Cooldown": 2
+            }
+        ]
     }
 }
 
