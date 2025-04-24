@@ -15045,6 +15045,46 @@
                 "Slow": 0.005
             }
         ]
+    },
+       "3D 8-Bit OMC": {
+        "Type": "AOE",
+        "Image": "rbxassetid://78679487650695",
+        "Rarity": "Apex",
+        "PlacePrice": 11340,
+        "Offset": 0,
+        "Max": 2,
+        "Passive": {"Name": "Double Trouble", "Description": "Deal +33% damage if on the same team as OMC or OMK."},
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 30,
+                "Damage": 2835,
+                "Cooldown": 0.25
+            },
+            {
+                "Price": 22222,
+                "Range": 43,
+                "Damage": 3887.5,
+                "Cooldown": 0.2
+            },
+            {
+                "Price": 33333,
+                "Range": 46,
+                "Damage": 4692.5,
+                "Cooldown": 0.15
+            },
+            {
+                "Price": 44444,
+                "Range": 48,
+                "Damage": 5832.5,
+                "Cooldown": 0.1
+            }
+        ]
     }
 }
 
