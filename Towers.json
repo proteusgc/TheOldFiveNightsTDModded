@@ -15245,6 +15245,44 @@
                 "Cooldown": 0.8
             }
         ]
-    }
+    },
+        "Fungi FredBear": {
+        "Type": "Pierce Spread",
+        "Image": "rbxassetid://18255264349",
+        "Rarity": "Forgotten",
+        "PlacePrice": 3000,
+        "Max": 3,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 33,
+                "Damage": 4300,
+                "Cooldown": 1
+            },
+            {
+                "Price": 5000,
+                "Range": 51,
+                "Damage": 5300,
+                "Cooldown": 0.5
+            },
+            {
+                "Price": 7000,
+                "Range": 69,
+                "Damage": 6800,
+                "Cooldown": 0.25
+            },
+            {
+                "Price": 10000,
+                "Range": 87,
+                "Damage": 8300,
+                "Cooldown": 0.1
+            }
+        ]
+    },
 }
 
