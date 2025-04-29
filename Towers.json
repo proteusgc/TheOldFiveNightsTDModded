@@ -14929,6 +14929,45 @@
                 "Cooldown": 0.25
             }
         ]
+    },
+        "C00lKidd": {
+        "Type": "AOE",
+        "Image": "rbxassetid://76378663299724",
+        "Rarity": "Forgotten",
+        "PlacePrice": 40000,
+        "Max": 1,
+
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 10,
+                "Damage": 69000,
+                "Cooldown": 1
+            },
+            {
+                "Price": 50000,
+                "Range": 14,
+                "Damage": 150000,
+                "Cooldown": 0.5
+            },
+            {
+                "Price": 60000,
+                "Range": 18,
+                "Damage": 350000,
+                "Cooldown": 0.75
+            },
+            {
+                "Price": 70000,
+                "Range": 20,
+                "Damage": 1500000,
+                "Cooldown": 0.65
+            }
+        ]
     }
 }
 
