@@ -15494,5 +15494,43 @@
                 "Offset": -1.5
             }
         ]
+    },
+        "Ignited Balloon Boy": {
+        "Type": "Nuke",
+        "Image": "rbxassetid://126165547769887",
+        "Rarity": "Secret",
+        "PlacePrice": 7500,
+        "Max": 3,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 15,
+                "Damage": 60000,
+                "Cooldown": 4.8
+            },
+            {
+                "Price": 1000000,
+                "Range": 18,
+                "Damage": 70000,
+                "Cooldown": 4.3
+            },
+            {
+                "Price": 15000,
+                "Range": 22,
+                "Damage": 80000,
+                "Cooldown": 3.8
+            },
+            {
+                "Price": 20000,
+                "Range": 25,
+                "Damage": 100000,
+                "Cooldown": 3.8
+            }
+        ]
     }
 }
