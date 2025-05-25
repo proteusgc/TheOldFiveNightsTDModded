@@ -15358,5 +15358,44 @@
                 "BurnTime": 1.2
             }
         ]
-    }
+    },
+            "Ignited Foxy": {
+            "Type": "Dual",
+            "Image": "rbxassetid://16632135968",
+            "Rarity": "Mythic",
+            "PlacePrice": 1200,
+            "Max": 3,
+            "hitboxOffset": {
+                "X": 0,
+                "Y": 0,
+                "Z": 0
+            },
+            "Offset": 0.7,
+            "Upgrades": [
+                {
+                    "Price": 0,
+                    "Range": 15,
+                    "Damage": 2500,
+                    "Cooldown": 1
+                },
+                {
+                    "Price": 1800,
+                    "Range": 18,
+                    "Damage": 3750,
+                    "Cooldown": 1
+                },
+                {
+                    "Price": 3000,
+                    "Range": 20,
+                    "Damage": 5000,
+                    "Cooldown": 0.75
+                },
+                {
+                    "Price": 5000,
+                    "Range": 20,
+                    "Damage": 7500,
+                    "Cooldown": 0.75
+                }
+            ]
+        }
 }
