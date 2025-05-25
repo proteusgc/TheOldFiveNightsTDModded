@@ -15532,5 +15532,43 @@
                 "Cooldown": 3.8
             }
         ]
+    },
+        "Ignited Gold Freddy": {
+        "Type": "Single",
+        "Image": "rbxassetid://132227716000418",
+        "Rarity": "Uncommon",
+        "PlacePrice": 69,
+        "Max": 420,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 69,
+                "Range": 69,
+                "Damage": 69,
+                "Cooldown": 69
+            },
+            {
+                "Price": 69,
+                "Range": 69,
+                "Damage": 69,
+                "Cooldown": 69
+            },
+            {
+                "Price": 420,
+                "Range": 420,
+                "Damage": 420,
+                "Cooldown": 420
+            },
+            {
+                "Price": 420,
+                "Range": 420,
+                "Damage": 420,
+                "Cooldown": 420
+            }
+        ]
     }
 }
