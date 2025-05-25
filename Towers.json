@@ -15397,5 +15397,43 @@
                     "Cooldown": 0.75
                 }
             ]
-        }
+        },
+        "Ignited Puppet": {
+        "Type": "Pierce",
+        "Image": "rbxassetid://95510300062528",
+        "Rarity": "Secret",
+        "PlacePrice": 15000,
+        "Max": 2,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 15,
+                "Damage": 50000,
+                "Cooldown": 4
+            },
+            {
+                "Price": 17000,
+                "Range": 17,
+                "Damage": 80000,
+                "Cooldown": 3
+            },
+            {
+                "Price": 20000,
+                "Range": 19,
+                "Damage": 100000,
+                "Cooldown": 3
+            },
+            {
+                "Price": 25000,
+                "Range": 21,
+                "Damage": 110000,
+                "Cooldown": 3
+            }
+        ]
+    }
 }
