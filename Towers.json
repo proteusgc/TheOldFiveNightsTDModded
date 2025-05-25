@@ -15216,6 +15216,45 @@
                 "Cooldown": 1.5
             }
         ]
+    },
+        "Ignited SpringTrap": {
+        "Type": "Pierce",
+        "Image": "rbxassetid://104107017223116",
+        "Rarity": "Forgotten",
+        "PlacePrice": 15000,
+        "Offset": 0,
+        "Max": 2,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 25,
+                "Damage": 15000,
+                "Cooldown": 2.5
+            },
+            {
+                "Price": 20000,
+                "Range": 27,
+                "Damage": 20000,
+                "Cooldown": 2
+            },
+            {
+                "Price": 25000,
+                "Range": 28,
+                "Damage": 25000,
+                "Cooldown": 1.5
+            },
+            {
+                "Price": 35000,
+                "Range": 30,
+                "Damage": 30000,
+                "Cooldown": 1.5
+            }
+        ]
     }
 }
 
