@@ -15435,5 +15435,64 @@
                 "Cooldown": 3
             }
         ]
+    },
+    "Ignited Cupcake": {
+        "Type": "Summoner",
+        "Image": "rbxassetid://128992300229444",
+        "Rarity": "Secret",
+        "PlacePrice": 2000,
+        "Max": 5,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Offset": -1.5,
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 8,
+                "Damage": 100,
+                "Cooldown": 5,
+                "SummonTime": 40,
+                "Health": 10000,
+                "WalkSpeed": 11,
+                "Unit": "Ignited Cupcake",
+                "Offset": -1.5
+            },
+            {
+                "Price": 2500,
+                "Range": 10,
+                "Damage": 150,
+                "Cooldown": 4,
+                "SummonTime": 38,
+                "Health": 15000,
+                "WalkSpeed": 11,
+                "Unit": "Ignited Cupcake",
+                "Offset": -1.5
+            },
+            {
+                "Price": 3000,
+                "Range": 12,
+                "Damage": 200,
+                "Cooldown": 2,
+                "SummonTime": 37,
+                "Health": 25000,
+                "WalkSpeed": 11,
+                "Unit": "Ignited Cupcake",
+                "Offset": -1.5
+            },
+            {
+                "Price": 4000,
+                "Range": 14,
+                "Damage": 250,
+                "Cooldown": 1,
+                "SummonTime": 36,
+                "Health": 40000,
+                "WalkSpeed": 11,
+                "Unit": "Ignited Cupcake",
+                "Offset": -1.5
+            }
+        ]
     }
 }
