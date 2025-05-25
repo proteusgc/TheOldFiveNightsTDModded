@@ -15277,6 +15277,8 @@
                 "Cooldown": 0.8,
                 "Slow": 0.65,
                 "SlowTime": 1,
+                "Burn": 18000,
+                "BurnTime": 1.2
             },
             {
                 "Price": 16000,
@@ -15285,6 +15287,8 @@
                 "Cooldown": 0.8,
                 "Slow": 0.65,
                 "SlowTime": 1,
+                "Burn": 20000,
+                "BurnTime": 1.2
             },
             {
                 "Price": 18000,
@@ -15293,6 +15297,8 @@
                 "Cooldown": 0.8,
                 "Slow": 0.65,
                 "SlowTime": 1,
+                "Burn": 22000,
+                "BurnTime": 1.2
             },
             {
                 "Price": 20000,
@@ -15301,6 +15307,55 @@
                 "Cooldown": 0.8,
                 "Slow": 0.65,
                 "SlowTime": 0.8,
+                "Burn": 25000,
+                "BurnTime": 1.2
+            }
+        ]
+    },
+    "Ignited Chica": {
+        "Type": "Single Burn",
+        "Image": "rbxassetid://88268169240308",
+        "Rarity": "Epic",
+        "PlacePrice": 500,
+        "Offset": 0,
+        "Max": 3,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 15,
+                "Damage": 80,
+                "Cooldown": 0.1,
+                "Burn": 100,
+                "BurnTime": 1.2
+            },
+            {
+                "Price": 600,
+                "Range": 16,
+                "Damage": 100,
+                "Cooldown": 0.1,
+                "Burn": 115,
+                "BurnTime": 1.2
+            },
+            {
+                "Price": 800,
+                "Range": 17,
+                "Damage": 115,
+                "Cooldown": 0.1,
+                "Burn": 130,
+                "BurnTime": 1.2
+            },
+            {
+                "Price": 1000,
+                "Range": 20,
+                "Damage": 130,
+                "Cooldown": 0.1,
+                "Burn": 200,
+                "BurnTime": 1.2
             }
         ]
     }
