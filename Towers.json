@@ -15570,5 +15570,48 @@
                 "Cooldown": 420
             }
         ]
+    },
+        "Chief Toy Chica": {
+        "Type": "Farm",
+        "Image": "rbxassetid://99315061482769",
+        "Rarity": "Secret",
+        "PlacePrice": 1000,
+        "Max": 3,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "NoEnemyAttack": true,
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 15,
+                "Damage": 100,
+                "Cooldown": 3,
+                "Farm": 1000
+            },
+            {
+                "Price": 1500,
+                "Range": 69,
+                "Damage": 100,
+                "Cooldown": 2,
+                "Farm": 2000
+            },
+            {
+                "Price": 2000,
+                "Range": 420,
+                "Damage": 100,
+                "Cooldown": 1,
+                "Farm": 4000
+            },
+            {
+                "Price": 3000,
+                "Range": 69420,
+                "Damage": 100,
+                "Cooldown": 1,
+                "Farm": 6000
+            }
+        ]
     }
 }
