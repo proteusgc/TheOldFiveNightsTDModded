@@ -2634,12 +2634,13 @@
         ]
     },
     "Circuit Breaker Freddy": {
-        "Type": "Single",
+        "Type": "Cone AOE",
         "Image": "rbxassetid://18886487842",
         "Rarity": "Nightmare",
-        "PlacePrice": 7500,
+        "PlacePrice": 6000,
         "Offset": 0,
         "Max": 3,
+        "Passive": {"Name": "Virus", "Description": "Enemies hit by Circuit Breaker's attack take 7.5% more damage for 3 seconds (15% if shiny)"},
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -2648,27 +2649,39 @@
         "Upgrades": [
             {
                 "Price": 0,
-                "Range": 20,
-                "Damage": 400,
-                "Cooldown": 0.7
+                "Range": 25,
+                "Damage": 2500,
+                "Cooldown": 0.4,
+                "Wither": 1.075,
+                "ShinyWither": 1.15,
+                "WitherTime": 1
+            },
+            {
+                "Price": 8000,
+                "Range": 28,
+                "Damage": 3200,
+                "Cooldown": 0.4,
+                "Wither": 1.075,
+                "ShinyWither": 1.15,
+                "WitherTime": 1
             },
             {
                 "Price": 10000,
-                "Range": 24,
-                "Damage": 600,
-                "Cooldown": 0.6
+                "Range": 31,
+                "Damage": 4000,
+                "Cooldown": 0.4,
+                "Wither": 1.075,
+                "ShinyWither": 1.15,
+                "WitherTime": 1
             },
             {
-                "Price": 12500,
-                "Range": 27,
-                "Damage": 800,
-                "Cooldown": 0.5
-            },
-            {
-                "Price": 15000,
-                "Range": 30,
-                "Damage": 1000,
-                "Cooldown": 0.4
+                "Price": 12000,
+                "Range": 35,
+                "Damage": 5000,
+                "Cooldown": 0.4,
+                "Wither": 1.075,
+                "ShinyWither": 1.15,
+                "WitherTime": 1
             }
         ]
     },
@@ -2756,8 +2769,8 @@
         "Rarity": "Secret",
         "PlacePrice": 800,
         "Offset": 0,
-        "Max": 2,
-        "Passive": {"Name": "Slow", "Description": "Slows enemies"},
+        "Max": 3,
+        "Passive": {"Name": "Slow", "Description": "Slows enemies by 50-70%"},
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -2766,38 +2779,38 @@
         "Upgrades": [
             {
                 "Price": 0,
-                "Range": 15,
+                "Range": 22,
                 "Damage": 0,
                 "Cooldown": 0.1,
                 "Slow": 0.7
             },
             {
                 "Price": 1000,
-                "Range": 17,
+                "Range": 25,
                 "Damage": 0,
                 "Cooldown": 0.1,
-                "Slow": 0.68
+                "Slow": 0.5
             },
             {
                 "Price": 1400,
-                "Range": 20,
+                "Range": 27,
                 "Damage": 0,
                 "Cooldown": 0.1,
-                "Slow": 0.66
+                "Slow": 0.4
             },
             {
                 "Price": 1800,
-                "Range": 22,
+                "Range": 32,
                 "Damage": 0,
                 "Cooldown": 0.1,
-                "Slow": 0.64
+                "Slow": 0.45
             },
             {
                 "Price": 2000,
                 "Range": 22,
                 "Damage": 0,
                 "Cooldown": 0.1,
-                "Slow": 0.6
+                "Slow": 0.3
             }
         ]
     },
@@ -5315,7 +5328,7 @@
     },
 
     "Animdude": {
-        "Type": "Splash",
+        "Type": "Nuke",
         "Image": "rbxassetid://77112261441145",
         "Rarity": "Secret",
         "PlacePrice": 5000,
@@ -5331,37 +5344,37 @@
             {
                 "Price": 0,
                 "Range": 25,
-                "Damage": 2000,
+                "Damage": 4000,
                 "Cooldown": 2.5
             },
             {
                 "Price": 10000,
                 "Range": 27,
-                "Damage": 2400,
+                "Damage": 4800,
                 "Cooldown": 2.4
             },
             {
                 "Price": 20000,
                 "Range": 30,
-                "Damage": 2800,
+                "Damage": 5600,
                 "Cooldown": 2.3
             },
             {
                 "Price": 30000,
                 "Range": 34,
-                "Damage": 3200,
+                "Damage": 6400,
                 "Cooldown": 2.2
             },
             {
                 "Price": 40000,
                 "Range": 37,
-                "Damage": 3600,
+                "Damage": 7200,
                 "Cooldown": 2.1
             },
             {
-                "Price": 150000,
+                "Price": 80000,
                 "Range": 40,
-                "Damage": 7500,
+                "Damage": 15000,
                 "Cooldown": 2
             }
         ]
@@ -6632,7 +6645,7 @@
         "PlacePrice": 12500,
         "Offset": 0,
         "Max": 2,
-        "Passive": {"Name": "Blight", "Description": "Slows all enemies in range by 35% and reduces enemy regen by 75%"},
+        "Passive": {"Name": "Blight", "Description": "Slows all enemies in range by 60% and reduces enemy regen by 75%"},
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -6641,43 +6654,43 @@
         "Upgrades": [
             {
                 "Price": 0,
-                "Range": 20,
-                "Damage": 1800,
-                "Cooldown": 0.8,
-                "Slow": 0.65,
-                "SlowTime": 1,
-                "Bleed": 0.75,
-                "BleedTime": 1
-            },
-            {
-                "Price": 14000,
-                "Range": 22,
-                "Damage": 2000,
-                "Cooldown": 0.8,
-                "Slow": 0.65,
-                "SlowTime": 1,
-                "Bleed": 0.75,
-                "BleedTime": 1
-            },
-            {
-                "Price": 16000,
-                "Range": 23,
-                "Damage": 2200,
-                "Cooldown": 0.8,
-                "Slow": 0.65,
-                "SlowTime": 1,
-                "Bleed": 0.75,
-                "BleedTime": 1
-            },
-            {
-                "Price": 18000,
                 "Range": 25,
-                "Damage": 2500,
+                "Damage": 6000,
                 "Cooldown": 0.8,
-                "Slow": 0.65,
-                "SlowTime": 0.8,
-                "Bleed": 0.75,
-                "BleedTime": 1
+                "Slow": 0.40,
+                "SlowTime": 3,
+                "Bleed": 0.25,
+                "BleedTime": 3
+            },
+            {
+                "Price": 35000,
+                "Range": 28,
+                "Damage": 7200,
+                "Cooldown": 0.8,
+                "Slow": 0.40,
+                "SlowTime": 3,
+                "Bleed": 0.25,
+                "BleedTime": 3
+            },
+            {
+                "Price": 40000,
+                "Range": 31,
+                "Damage": 9000,
+                "Cooldown": 0.8,
+                "Slow": 0.40,
+                "SlowTime": 3,
+                "Bleed": 0.25,
+                "BleedTime": 3
+            },
+            {
+                "Price": 50000,
+                "Range": 35,
+                "Damage": 11000,
+                "Cooldown": 0.8,
+                "Slow": 0.40,
+                "SlowTime": 3,
+                "Bleed": 0.25,
+                "BleedTime": 3
             }
         ]
     },
@@ -6727,7 +6740,7 @@
         "PlacePrice": 40000,
         "Offset": 0.4,
         "Max": 2,
-        "Passive": {"Name": "Lethality", "Description": "Every few seconds fires a railgun that deals 50x it's damage and stuns"},
+        "Passive": {"Name": "Lethality", "Description": "Every few seconds fires a railgun that deals 60x it's damage and stuns"},
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -6737,26 +6750,34 @@
             {
                 "Price": 0,
                 "Range": 25,
-                "Damage": 350,
+                "Damage": 1200,
                 "Cooldown": 0.1
+                "Slow": 0.3,
+                "SlowTime": 1.5
             },
             {
                 "Price": 45000,
                 "Range": 28,
-                "Damage": 450,
+                "Damage": 1500,
                 "Cooldown": 0.1
+                "Slow": 0.3,
+                "SlowTime": 1.5
             },
             {
                 "Price": 50000,
                 "Range": 32,
-                "Damage": 500,
+                "Damage": 1900,
                 "Cooldown": 0.1
+                "Slow": 0.3,
+                "SlowTime": 1.5
             },
             {
                 "Price": 60000,
-                "Range": 35,
-                "Damage": 600,
+                "Range": 38,
+                "Damage": 2500,
                 "Cooldown": 0.1
+                "Slow": 0.3,
+                "SlowTime": 1.5
             }
         ]
     },
@@ -8893,7 +8914,7 @@
             {
                 "Price": 30000,
                 "Range": 40,
-                "Damage": 54000,
+                "Damage": 80000,
                 "Cooldown": 2,
                 "Slow": 0.35,
                 "SlowTime": 4
@@ -9708,7 +9729,7 @@
         "PlacePrice": 40000,
         "Offset": 0,
         "Max": 1,
-        "Passive": {"Name": "Giant Slayer", "Description": "Deal +20% damage to large enemies"},
+        "Passive": {"Name": "Giant Slayer", "Description": "Deal +70% damage to large enemies"},
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -9720,28 +9741,28 @@
                 "Range": 30,
                 "Damage": 43000,
                 "Cooldown": 3,
-                "LargeDamage": 1.2
+                "LargeDamage": 1.7
             },
             {
                 "Price": 60000,
                 "Range": 32,
                 "Damage": 56000,
                 "Cooldown": 3,
-                "LargeDamage": 1.2
+                "LargeDamage": 1.7
             },
             {
                 "Price": 80000,
                 "Range": 35,
                 "Damage": 65000,
                 "Cooldown": 3,
-                "LargeDamage": 1.2
+                "LargeDamage": 1.7
             },
             {
                 "Price": 100000,
                 "Range": 40,
                 "Damage": 87000,
                 "Cooldown": 3,
-                "LargeDamage": 1.2
+                "LargeDamage": 1.7
             }
         ]
     },
@@ -10881,7 +10902,7 @@
             {
                 "Price": 45000,
                 "Range": 35,
-                "Damage": 24000,
+                "Damage": 40000,
                 "Cooldown": 1
             }
         ]
@@ -14747,7 +14768,7 @@
                 "Cooldown": 2.5,
                 "Slow": 0.35,
                 "SlowTime": 3,
-                "Burn": 40,
+                "Burn": 10,
                 "BurnTime": 1.2
             },
             {
@@ -14757,7 +14778,7 @@
                 "Cooldown": 2.5,
                 "Slow": 0.35,
                 "SlowTime": 3,
-                "Burn": 40,
+                "Burn": 100,
                 "BurnTime": 1.2
             },
             {
@@ -14767,17 +14788,17 @@
                 "Cooldown": 2.5,
                 "Slow": 0.35,
                 "SlowTime": 3,
-                "Burn": 40,
+                "Burn": 100,
                 "BurnTime": 1.2
             },
             {
                 "Price": 45454,
-                "Range": 35,
+                "Range": 40,
                 "Damage": 120000,
                 "Cooldown": 2.5,
                 "Slow": 0.35,
                 "SlowTime": 3,
-                "Burn": 40,
+                "Burn": 100,
                 "BurnTime": 1.2
             }
         ]
@@ -14798,32 +14819,32 @@
         "Upgrades": [
             {
                 "Price": 0,
-                "Range": 28,
-                "Damage": 100,
+                "Range": 35,
+                "Damage": 5000,
                 "Cooldown": 0.25,
                 "Slow": 0.35,
                 "SlowTime": 1
             },
             {
                 "Price": 15000,
-                "Range": 32,
-                "Damage": 100,
+                "Range": 37,
+                "Damage": 6500,
                 "Cooldown": 0.25,
                 "Slow": 0.35,
                 "SlowTime": 1
             },
             {
                 "Price": 18000,
-                "Range": 34,
-                "Damage": 100,
+                "Range": 40,
+                "Damage": 7000,
                 "Cooldown": 0.25,
                 "Slow": 0.35,
                 "SlowTime": 1
             },
             {
                 "Price": 22000,
-                "Range": 37,
-                "Damage": 4800,
+                "Range": 45,
+                "Damage": 9000,
                 "Cooldown": 0.25,
                 "Slow": 0.35,
                 "SlowTime": 1
@@ -15113,7 +15134,7 @@
         "Type": "Pierce Spread + Poison + Wither",
         "Image": "rbxassetid://128503373439117",
         "Rarity": "Apex",
-        "PlacePrice": 44000,
+        "PlacePrice": 30000,
         "Offset": 0,
         "Max": 1,
         "Passive": {"Name": "Plague", "Description": "Deal +25% Poison damage and Apply 17% Wither (25% Shiny) for 10 seconds"},
@@ -15159,7 +15180,7 @@
             {
                 "Price": 80000,
                 "Range": 40,
-                "Damage": 117000,
+                "Damage": 120000,
                 "Cooldown":2.25,
                 "Burn": 5850,
                 "BurnTime": 1.2,
